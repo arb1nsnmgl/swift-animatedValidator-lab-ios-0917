@@ -49,7 +49,7 @@ class ValidatorViewControllerTest: QuickSpec {
                 tester.tapView(withAccessibilityLabel: Constants.PASSWORDCONFIRMTEXTFIELD)
                 tester.enterText("myPassword1\n", intoViewWithAccessibilityLabel: Constants.PASSWORDCONFIRMTEXTFIELD)
                 
-                tester.tapView(withAccessibilityLabel: Constants.EMAILTEXTFIELD)
+                //tester.tapView(withAccessibilityLabel: Constants.EMAILTEXTFIELD)
                 
                 expect(submitButton.isEnabled).to(beTrue())
             }
